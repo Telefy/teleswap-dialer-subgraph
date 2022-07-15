@@ -1,0 +1,15 @@
+{
+  "name": "DialerContract",
+  "private": true,
+  "license": "MIT",
+  "version": "1.0.1",
+  "author": "Mazelon",
+  "scripts": {
+    "codegen": "graph codegen",
+    "build": "graph build",
+    "deploy": "graph deploy --product hosted-service telefy/teleswap-dialer-subgraph"
+  },
+  "dependencies": {
+    "@graphprotocol/graph-ts": "^0.26.0"
+  }
+}
